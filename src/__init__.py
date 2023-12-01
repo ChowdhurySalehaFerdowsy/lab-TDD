@@ -15,7 +15,7 @@ class Ping(Resource):
     def get(self):
         return {
             'status':'success',
-            'message':'pong! message changed'
+            'message':'pong!'
         }
 api.add_resource(Ping,'/ping')
 
